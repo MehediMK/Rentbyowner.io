@@ -1,5 +1,5 @@
 <h1 align='center'>Rent by Owner</h1>
-Go to <a href="https://mehedimk.github.io/Rent-By-Owner.io/">Live URL</a>
+Go to <a href="https://mehedimk.github.io/rentbyowner.io/" target="_blank">Live URL</a>
 
 # How to Run this Project
 
