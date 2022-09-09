@@ -127,7 +127,6 @@ ul{
 .gallery .gallery-item {
     position: relative;
     color: white;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.7),rgba(22, 22, 22, 0.7));
   }
 .gallery .gallery-item .title{
     font-weight: 400;
