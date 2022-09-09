@@ -1,0 +1,187 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Rent by Owner
+	Template URL: http://www.abm.com
+	Description: Rent by Owner Assignment W3 Engineers LTD.
+	Author: Md Mehedi Hasan Khan
+	Author URL: github.com/mehedimk
+-----------------------------------------------------------------------------------
+
+	1. Global
+	2. Banner Section
+	3. Event Section
+	4. Gallery Section
+	5. Post Section
+	6. Adventure Section
+	7. Footer Section
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Global ************************/
+:root {
+    --blue: #293462;
+    --yellow:#FEDB39;
+    --fest:#1CD6CE;
+    --red:#D61C4E;
+  }
+
+  .bg-blue{
+    background-color:var(--blue);
+}
+.text-blue{
+    color:var(--blue);
+}
+
+.bg-yellow{
+    background-color:var(--yellow);
+}
+.text-yellow{
+    color:var(--yellow);
+}
+
+.text-fest{
+    color:var(--fest);
+}
+.bg-fest{
+    background-color:var(--fest);
+}
+.bg-red{
+    background-color:var(--red);
+}
+p{
+    text-align: justify;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.active>.page-link{
+    background-color: var(--blue) !important;
+    color: var(--fest) !important;
+}
+
+/* global css end  */
+
+
+/************** 2. Banner Section ************************/
+
+.banner{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(65, 62, 62, 0.7),rgba(43, 42, 42, 0.7)),
+                url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ /* hero banner area end */
+
+
+/* banner search input form css start */
+.has-search{
+    width: 40%;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    padding: 5px;
+    width:1.5rem;
+    height:1.5rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/* banner search input form css end */
+
+
+/************** 3. Event Section ************************/
+.event p{
+    word-break: break-all;
+    text-align: justify;
+    font-size: 1.2em;
+    word-wrap: break-word;
+}
+.event a{
+    line-height:1em;
+    text-decoration: none;
+    color: var(--blue);
+}
+/* event section end */
+
+
+/************** 4. Gallery Section ************************/
+.gallery img{
+    
+    height: 200px;
+    cursor: pointer;
+}
+.gallery .gallery-item {
+    position: relative;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(22, 22, 22, 0.7));
+  }
+.gallery .gallery-item .title{
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.gallery .gallery-item .footer-tag{
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+/* gallery css end */
+
+
+/************** 5. Post Section ************************/
+.post-content .title a{    
+    word-break: break-all;
+    color: var(--blue);
+    text-decoration: none;
+}
+.post-content .category a{
+    color: var(--blue);
+    font-weight: bold;
+}
+/* post area end */
+
+
+/************** 6. Adventure Section ************************/
+.adventures .adventure-item{
+    cursor: pointer;
+    height: 300px;
+}
+.adventures .adventure-item img{
+    height: 100%;
+}
+
+/* adventure css end */
+
+
+
+/************** 7. Footer Section ************************/
+/* footer-top area start */
+.footer-top{
+    background-color:#f1f1f1;
+    height:auto;
+}
+
+.footer-top ul li a{
+    text-decoration: none;
+    color: var(--blue);
+}
+.footer-top .footer-menu-item:nth-child(2) ul{
+    padding-top: 10%;
+}
+/* footer-top area end */
