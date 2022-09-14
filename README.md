@@ -3,7 +3,7 @@ Go to <a href="https://mehedimk.github.io/rentbyowner.io/" target="_blank">Live 
 
 # How to Run this Project
 
-1. First of all clone this Project Python version: 3.8 or avobe
+1. First of all clone this Project
 2. Now go to the download directory
 3. Extract this File
 4. Now go to the project directory
